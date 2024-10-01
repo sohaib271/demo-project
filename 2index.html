@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Random Password Generator</title>
+</head>
+
+<body>
+    <div class="passGen">
+        <div class="heading" style="width: 303px;">
+            <h1 id="h1">Generate a</h1>
+            <h1 id="h2">Random Password</h1>
+        </div>
+        <div class="ps">
+            <i class="ri-eye-off-fill" id="eye" onclick="typ()"></i>
+            <input type="password" required id="pass" placeholder="Password">
+            <i class="ri-file-copy-line" id="copy" onclick="copy()"></i>
+        </div>
+        <button id="btn" onclick="randomPass()">
+            <i class="ri-flashlight-fill" style="font-size: 22px;"></i>
+            Generate Password
+        </button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
